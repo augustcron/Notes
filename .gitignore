@@ -1,35 +1,26 @@
-# Django и Django REST Framework
-*.pyc
-*.pyo
-__pycache__
-*.so
-*.egg
-*.egg-info
-dist
-build
-venv
-.env
+backend/notes/__pycache__/
+backend/notes/migrations/
+backend/notes_django/__pycache__/
+backend/venv/
 
-# Игнорирование миграций Django
-**/migrations/
-*.pyc
 
-# Файлы окружения
-.env
+# Created by https://www.toptal.com/developers/gitignore/api/react
+# Edit at https://www.toptal.com/developers/gitignore?templates=react
 
-# Кэш и временные файлы
+### react ###
+.DS_*
 *.log
-*.cache
-*.swp
-*.bak
-*.pyc
+logs
+**/*.backup.*
+**/*.back.*
 
-# Static files
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+node_modules
+bower_components
 
-# Остальные зависимости
-/node_modules
-/staticfiles
-/db.sqlite3
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/react
