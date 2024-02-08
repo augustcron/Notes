@@ -4,7 +4,7 @@ import { API_URL } from "./index.js";
 import axios from "axios";
 import React, { useState, useEffect } from 'react';
 
-function App() {
+export default function App() {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
@@ -29,5 +29,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
